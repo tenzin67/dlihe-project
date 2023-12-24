@@ -1,14 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import News from './Pages/Dlihetoday/news'
+import Message from './Pages/Message/Message'
+import About from './Pages/aboutdlihe/About'
+import Affiliation from './Pages/affiliation/Affiliation'
+import Model from './Pages/Modal/Model'
+import Contact from './Pages/Contact/Contact'
+import Ba from './Pages/Ba/Ba'
+
+News
 import './App.css'
+import Admission from './Pages/Admission/Admission'
+import Academic from './Pages/academic /Academic'
+import Internship from './Pages/Internship /Internship'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    </>
+    <div className=''>
+          {/* <Model/> */}
+      {/* <Affiliation/>
+      <About/> */}
+     {/* <Message />  */}
+    {/* <News/> 
+    <Contact/> */}
+    {/* <Ba/> */}
+    {/* <Admission/> */}
+    {/* <Academic/> */}
+    <Internship/>
+
+    </div>
   )
 }
 
