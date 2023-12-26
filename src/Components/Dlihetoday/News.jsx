@@ -4,7 +4,7 @@ import pata from "../../assets/pata.png";
 import upcoming1 from "../../assets/upcoming1.jpeg";
 import upcoming2 from "../../assets/upcoming2.jpg";
 import Sample from '../../assets/sample.jpg'
-import EventBar from "../../Components/EventBar";
+import EventBar from "../../Compo/EventBar";
 
 
 function News() {

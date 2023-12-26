@@ -3,8 +3,8 @@ import sample from "../../assets/sample.jpg";
 
 function About() {
   return (
-    <>
-      <div className="flex flex-col gap-5">
+    <div className=" pt-[167px]">
+      <div className="flex flex-col gap-5 ">
         <img src={sample} className=" w-full h-[350px] object-cover" />
 
         <div className=" flex items-center gap-5 ml-40">
@@ -26,7 +26,7 @@ function About() {
 
 
       </div>
-    </>
+    </div>
   );
 }
 

@@ -4,7 +4,7 @@ import pata from '../../assets/pata.png'
 
 function Affiliation() {
   return (
-    <>
+    <div className=" pt-[167px]">
       <div className="flex flex-col gap-5">
         <img src={sample} className=" w-full h-[350px] object-cover" />
 
@@ -77,7 +77,7 @@ function Affiliation() {
 
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
