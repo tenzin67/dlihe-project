@@ -9,19 +9,19 @@ function Affiliation() {
         <img src={sample} className=" w-full h-[350px] object-cover" />
 
         <div className=" flex items-center gap-5 ml-40">
-          <div className=" w-1 rounded-3xl h-16 bg-[#FDB714]" />
-          <h1 className=" text-[80px] font-[750] text-[#9A0002]">
+          <div className=" max-xl:invisible w-1 rounded-3xl h-16 bg-[#FDB714]" />
+          <h1 className="heading text-[80px] font-[750] text-[#9A0002]">
             AFFILIATION
           </h1>
         </div>
 
-        <p className="text-[#FDB714] ml-36 font-light text-[19px] underline underline-offset-4 -mt-5 w-[1350px] text-center tracking-widest cursor-pointer">
+        <p className="subheading text-[#FDB714] ml-36 font-light text-[19px] underline underline-offset-4 -mt-5 w-[1350px] text-center tracking-widest cursor-pointer">
           The Dalai Lama Institute for Higher Education, Bangalore, is TCV’s
           latest educational endeavor, and one of the most significant projects
           ever undertaken by TCV.
         </p>
 
-        <div className=" w-[1300px] text-[24px] ml-44 font-light">
+        <div className=" parabox  w-[1300px] text-[24px] ml-44 font-light">
           <p className=" text-center font-extralight">
             “From the day we became refugees, our basic objective was to rise to
             the very place from where we have fallen down.”
@@ -61,17 +61,17 @@ function Affiliation() {
           </p>
         </div>
 
-        <div className=" w-full h-[302px] bg-[#FDB71433]">
+        <div className=" w-full h-[302px] bg-[#FDB71433] max-xl:mt-[750px]">
 
           <h1 className=" text-[40px] font-[750] text-center mt-10 text-[#9A0002]">BANGLORE UNIVERSITY</h1>
 
-          <div className="flex items-center gap-4 ml-64 mt-5">
+          <div className="flex items-center gap-4 ml-64 mt-5 max-xl:invisible">
             <div className=" h-2 border rounded bg-[#FDB714] w-[535px]" />
             <img src={pata} alt="" srcset="" className=" h-10 w-12 rotate-90" />
             <div className=" h-2 rounded border bg-[#FDB714] w-[535px] " />
           </div>
 
-          <p className=" text-center mb-10 font-light w-[1180px] ml-64 mt-5">
+          <p className=" description max-xl:w-[90%] max-xl:-mt-5 max-xl:ml-8 text-center mb-10 font-light w-[1180px] ml-64 mt-5">
           Since 2018, DLIHE was recognized by and became an affiliated institute of Bangalore University. Under the auspices of Bangalore University, DLIHE began offering undergraduate programmes in Arts, Computer Applications, Commerce, and Business Administration, as well as Specialized Programmes (Tibetan Studies, as well as Tibetan Language, Literature, History and Buddhist Philosophy courses). The DLIHE also offers PhD in Tibetan Studies recognized by Bangalore University.
           </p>
 

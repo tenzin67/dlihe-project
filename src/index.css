@@ -58,10 +58,10 @@
      height: 100vh;
      background-image: linear-gradient(
          to right,
-         rgba(255, 255, 255, 0.4),
-         rgba(255, 255, 255, 0.4)
+         rgba(16, 16, 16, 0.3),
+         rgba(27, 25, 25, 0.3)
        ),
-       url("/images/hero.jpeg");
+       url("/images/Hero.JPG");
      background-size: cover;
      background-position: top;
      animation: zoomOut 8s ease-in;
@@ -310,7 +310,28 @@
    }
    
 
-
-
-
+   /* mobile views */
    
+   @media only screen and (max-width: 768px){
+     .parabox{
+      @apply border w-[450px] text-base absolute mt-[90%] ml-16
+     }
+
+    .heading{
+      @apply text-5xl -ml-5
+    }
+    .subheading{
+      @apply text-xs text-center w-[90%] ml-10
+    }
+    .bottomimg{
+      @apply mt-[800px]
+    }
+    .description{
+      @apply ml-4 text-center text-sm mb-6
+    }
+    .input{
+      @apply w-[90%] p-5
+    }
+
+  
+}
